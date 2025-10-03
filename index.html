@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://cdn2.steamgriddb.com/icon/2119b8d43eafcf353e07d7cb5554170b/32/256x256.png">
+    <title>stardew valley - personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>guia dos moradores da vila pelicanos</h1>
+        <h2>stardew valley</h2>
+    </header>
+
+    <main id="paqueras">
+        <section id="garotas">
+            <h2>garotas</h2>
+            <div class="paquero">
+                <img src="img/abigail.png" alt="Abigail">
+                <div class="info">
+                    <h3>abigail</h3>
+                    <p>a abigail é uma garota doce que ama jogos... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Abigail')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/penny.png" alt="Penny">
+                <div class="info">
+                    <h3>penny</h3>
+                    <p>penny é gentil, sensível e adora a vida simples... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Penny')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/maru.png" alt="Maru">
+                <div class="info">
+                    <h3>maru</h3>
+                    <p>maru é muito inteligente e adora tecnologia... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Maru')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/leah.png" alt="Leah">
+                <div class="info">
+                    <h3>leah</h3>
+                    <p>leah é uma artista apaixonada pela natureza... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Leah')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/emily.png" alt="Emily">
+                <div class="info">
+                    <h3>emily</h3>
+                    <p>emily é alegre, excêntrica e adora arte... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Emily')">trabalhando nisso...</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="garotos">
+            <h2>garotos</h2>
+            <div class="paquero">
+                <img src="img/alex.png" alt="Alex">
+                <div class="info">
+                    <h3>alex</h3>
+                    <p>alex é um jovem atleta com grande foco em musculação... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Alex')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/harvey.png" alt="Harvey">
+                <div class="info">
+                    <h3>harvey</h3>
+                    <p>harvey é o medico da vila, sempre preocupado... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Harvey')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/sebastian.png" alt="Sebastian">
+                <div class="info">
+                    <h3>sebastian</h3>
+                    <p>sebastian é introvertido e misterioso... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Sebastian')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/shane.png" alt="Shane">
+                <div class="info">
+                    <h3>shane</h3>
+                    <p>shane é o cara meio rebelde... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Shane')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/elliott.png" alt="Elliott">
+                <div class="info">
+                    <h3>elliott</h3>
+                    <p>elliott é o escritor romantico da vila... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Elliott')">trabalhando nisso...</button>
+                </div>
+            </div>
+            <div class="paquero">
+                <img src="img/sam.png" alt="Sam">
+                <div class="info">
+                    <h3>sam</h3>
+                    <p>sam é o tipico jovem descontraído... (texto reduzido)</p>
+                    <button onclick="mostrarDetalhes('Sam')">trabalhando nisso...</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="sobre">
+        <h2>sobre o guia</h2>
+        <p>guia para a juliana nao esquecer dos presentes dos npcs.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 stardew valley</p>
+    </footer>
+
+    <!-- modal de detalhes -->
+    <div id="detalhesModal" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2 id="detalhesTitulo"></h2>
+            <p id="detalhesDescricao"></p>
+            <img id="detalhesImagem" src="" alt="Imagem do presente favorito">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
